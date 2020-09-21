@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引用轮播样式 -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/listproduct.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <h1>
+                    <a href="#"><img src="../trunk/images/logo.jpg" alt=""></a>
+                </h1>
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="logintxtbox fr">
+                    欢迎光临<a href="#">乐购</a>，请<a href="#">登录</a>/<a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索区 -->
+        <div class="searchbox lg-container mt4 clearfix">
+            <div class="cartorder fr">
+                <a href="#" class="fl">购物车
+                    <i>3</i>
+                </a>
+                <a href="#" class="fl"> 我的订单</a>
+            </div>
+            <form action="#" class="fr">
+                <input type="text" name="" class="fl" placeholder="创意文具">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+        <nav class="lg-container">
+            <ul class="fr">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴童</a></li>
+                <li><a href="#">家具</a></li>
+                <li><a href="#">创意文具</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- banner -->
+    <section id="listbanner" class="lg-container">
+        <div class="listlunbo">
+            <div class="pptbox fl" id="listlunbobox">
+                <ul class="innerwrapper">
+                    <li>
+                        <a href="#">
+                            <img src="./images/banner1.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/banner2.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/banner3.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/banner4.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/banner5.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="controls">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <span class="btnleft"></span>
+                <span class="btnright"></span>
+            </div>
+        </div>
+        <div class="advertising">
+            <img src="./images/moshou_03.jpg" alt="">
+        </div>
+    </section>
+    <!-- 折扣区域 -->
+    <section id="discount" class="lg-container clearfix  mt70">
+        <div class="zhekou brd6 title">
+            <h3 class="f24 bgcf6 ">乐购·图书折扣区</h3>
+        </div>
+        <div class="discountbt clearfix">
+            <ul class="fr">
+                <script>
+                    for (let i = 0; i < 5; i++) {
+                        document.write(`
+                        <li>
+                            <img src="./images/baiyexing.jpg" alt="">
+                            <img src="./images/index05_18.jpg" alt="">
+                            <p class="ml10">白夜行  东野上吾</p>
+                            <img src="./images/wujiaoxing_03.jpg" class="ml10">
+                            <p class="cr f24 ml10">￥:30</p>
+                            <del class="cc f24">￥:58</del>
+                        </li>
+                        `)
+                    }
+                </script>
+            </ul>
+            <ul class="fr">
+                <script>
+                    for (let i = 0; i < 5; i++) {
+                        document.write(`
+                        <li>
+                            <img src="./images/byx.jpg" alt="">
+                            <img src="./images/index05_18.jpg" alt="">
+                            <p class="ml10">白夜行  东野上吾</p>
+                            <img src="./images/wujiaoxing_03.jpg" class="ml10">
+                            <p class="cr f24 ml10">￥:30</p>
+                            <del class="cc f24">￥:58</del>
+                        </li>
+                        `)
+                    }
+                </script>
+            </ul>
+        </div>
+    </section>
+    <!-- 新书上架 -->
+    <section id="newbook" class="lg-container clearfix">
+        <div class="newbookleft">
+            <div class="brd6 title">
+                <h3 class="f24 c333"><span class="f30 cfff bgcf6 pad8 ">新</span>书上架</h3>
+            </div>
+            <div class="bt">
+                <ul class="fr">
+                    <script>
+                        for (let i = 0; i < 5; i++) {
+                            document.write(`
+                            <li>
+                                <img src="./images/dsj.jpg" alt="">
+                                <p>查理 斯密斯</p>
+                                <p class="c80 mt10">中国邮电出版社</p>
+                                <p class="cr f18">￥:30</p>
+                                <del class="cc f18">￥:58</del>
+                            </li>
+                            `)
+                        }
+                    </script>
+                </ul>
+                <ul class="fr">
+                    <script>
+                        for (let i = 0; i < 5; i++) {
+                            document.write(`
+                            <li>
+                                <img src="./images/jr.jpg" alt="">
+                                <p>查理 斯密斯</p>
+                                <p class="c80 mt10">中国邮电出版社</p>
+                                <p class="cr f18">￥:30</p>
+                                <del class="cc f18">￥:58</del>
+                            </li>
+                            `)
+                        }
+                    </script>
+                </ul>
+            </div>
+        </div>
+        <div class="newbookright">
+            <p>热卖畅销</p>
+            <ul>
+                <li>
+                    <div>1</div>
+                    <div class="cur ">
+                        <img src="./images/st.jpg">
+                        <p>《三体》刘慈欣一场科幻<br>
+                            的史诗风暴</p>
+                    </div>
+                </li>
+                <li>
+                    <div>2</div>
+                    <div>
+                        <img src="./images/index08_05.jpg">
+                        <p>《从你的世界路过》</p>
+                    </div>
+                </li>
+                <li>
+                    <div>3</div>
+                    <div>
+                        <img src="./images/index08_05.jpg">
+                        <p>《从你的世界路过》</p>
+                    </div>
+                </li>
+                <li>
+                    <div>4</div>
+                    <div>
+                        <img src="./images/index08_05.jpg">
+                        <p>《从你的世界路过》</p>
+                    </div>
+                </li>
+                <li>
+                    <div>5</div>
+                    <div>
+                        <img src="./images/index08_05.jpg">
+                        <p>《从你的世界路过》</p>
+                    </div>
+                </li>
+                <li>
+                    <div>5</div>
+                    <div>
+                        <img src="./images/index08_05.jpg">
+                        <p>《从你的世界路过》</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- 独家提供 -->
+    <section id="exclusive" class="lg-container">
+        <div class="exclusivetop">
+            <div class="brd6 title">
+                <h3 class="f24 c333 fl"><span class="f30 cfff bgcf6 pad8 ">独</span>家提供</h3>
+                <ul class="fr">
+                    <li class="active">
+                        <a href="#">货币金融</a>
+                    </li>
+                    <li><a href="#">社会文学</a></li>
+                    <li><a href="#">科学技术</a></li>
+                    <li><a href="#">儿童文学</a></li>
+                    <li><a href="#">生活</a></li>
+                    <li><a href="#">教学参辅</a></li>
+                    <li><a href="#">小说</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 内容区域 -->
+        <div class="exclusivebt">
+            <div class="listlunbo">
+                <!-- 货币金融 -->
+
+                <div class="pptbox fl exlunbobox cur">
+                    <ul class="innerwrapper">
+                        <li style="padding: 0 36px 0 36px;">
+                            <!-- 12个小盒子 -->
+                            <ul>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                        <li><a href="#">
+                                                <img src="./images/adh.jpg" alt="">
+                                                <p>查理 斯密斯</p>
+                                                <p class="c80 mt10">中国邮电出版社</p>
+                                                <p class="cr f18">￥:30</p>
+                                                <del class="cc f18">￥:58</del>
+                                            </a>
+                                        </li>
+                                        `)
+                                    }
+                                </script>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                        <li><a href="#">
+                                                <img src="./images/hb.jpg" alt="">
+                                                <p>查理 斯密斯</p>
+                                                <p class="c80 mt10">中国邮电出版社</p>
+                                                <p class="cr f18">￥:30</p>
+                                                <del class="cc f18">￥:58</del>
+                                            </a>
+                                        </li>
+                                        `)
+                                    }
+                                </script>
+                            </ul>
+                        </li>
+                        <li style="padding: 0 36px 0 36px;">
+                            <!-- 12个小盒子 -->
+                            <ul>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                        <li><a href="#">
+                                                <img src="./images/zrs.jpg" alt="">
+                                                <p>查理 斯密斯</p>
+                                                <p class="c80 mt10">中国邮电出版社</p>
+                                                <p class="cr f18">￥:30</p>
+                                                <del class="cc f18">￥:58</del>
+                                            </a>
+                                        </li>
+                                        `)
+                                    }
+                                </script>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                        <li><a href="#">
+                                                <img src="./images/fk.jpg" alt="">
+                                                <p>查理 斯密斯</p>
+                                                <p class="c80 mt10">中国邮电出版社</p>
+                                                <p class="cr f18">￥:30</p>
+                                                <del class="cc f18">￥:58</del>
+                                            </a>
+                                        </li>
+                                        `)
+                                    }
+                                </script>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="controls">
+                        <li class="current">1</li>
+                        <li>2</li>
+                    </ul>
+                    <span class="btnleft"></span>
+                    <span class="btnright"></span>
+                </div>
+                <!-- 社会文学 -->
+                <div class="pptbox fl exlunbobox">
+                    <ul class="innerwrapper">
+                        <li style="padding: 0 36px 0 36px;">
+                            <!-- 12个小盒子 -->
+                            <ul>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                    <li><a href="#">
+                                            <img src="./images/hb.jpg" alt="">
+                                            <p>查理 斯密斯</p>
+                                            <p class="c80 mt10">中国邮电出版社</p>
+                                            <p class="cr f18">￥:30</p>
+                                            <del class="cc f18">￥:58</del>
+                                        </a>
+                                    </li>
+                                    `)
+                                    }
+                                </script>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                    <li><a href="#">
+                                            <img src="./images/adh.jpg" alt="">
+                                            <p>查理 斯密斯</p>
+                                            <p class="c80 mt10">中国邮电出版社</p>
+                                            <p class="cr f18">￥:30</p>
+                                            <del class="cc f18">￥:58</del>
+                                        </a>
+                                    </li>
+                                    `)
+                                    }
+                                </script>
+                            </ul>
+                        </li>
+                        <li style="padding: 0 36px 0 36px;">
+                            <!-- 12个小盒子 -->
+                            <ul>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                    <li><a href="#">
+                                            <img src="./images/fk.jpg" alt="">
+                                            <p>查理 斯密斯</p>
+                                            <p class="c80 mt10">中国邮电出版社</p>
+                                            <p class="cr f18">￥:30</p>
+                                            <del class="cc f18">￥:58</del>
+                                        </a>
+                                    </li>
+                                    `)
+                                    }
+                                </script>
+                                <script>
+                                    for (let i = 0; i < 6; i++) {
+                                        document.write(`
+                                    <li><a href="#">
+                                            <img src="./images/zrs.jpg" alt="">
+                                            <p>查理 斯密斯</p>
+                                            <p class="c80 mt10">中国邮电出版社</p>
+                                            <p class="cr f18">￥:30</p>
+                                            <del class="cc f18">￥:58</del>
+                                        </a>
+                                    </li>
+                                    `)
+                                    }
+                                </script>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="controls">
+                        <li class="current">1</li>
+                        <li>2</li>
+                    </ul>
+                    <span class="btnleft"></span>
+                    <span class="btnright"></span>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- 猜你喜欢 -->
+    <section id="guess" class="lg-container">
+        <div class="brd6 title clearfix guesstop">
+            <h3 class="f24 c333 fl"><span class="f30 cfff bgcf6 pad8 ">猜</span>你喜欢</h3>
+            <a class="rightbox fr"><img src="./images/hyh_03.jpg"></a>
+        </div>
+        <div class="pro-con">
+            <div class="box">
+                <!-- 区域一 -->
+                <div class="bt clearfix cur">
+                    <ul class="fr">
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(`
+                        <li><a href="#">
+                            <img src="./images/gj.jpg" alt="">
+                            <p>查理 斯密斯</p>
+                            <p class="c80 mt10">中国邮电出版社</p>
+                            <p class="cr f18">￥:30</p>
+                            <del class="cc f18">￥:58</del></a>
+                        </li>
+                        `)
+                            }
+                        </script>
+                    </ul>
+                    <ul class="fr">
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(`
+                        <li><a href="#">
+                            <img src="./images/yj.jpg" alt="">
+                            <p>查理 斯密斯</p>
+                            <p class="c80 mt10">中国邮电出版社</p>
+                            <p class="cr f18">￥:30</p>
+                            <del class="cc f18">￥:58</del></a>
+                        </li>
+                        `)
+                            }
+                        </script>
+                    </ul>
+                </div>
+
+                <!-- 区域二 -->
+                <div class="bt clearfix">
+                    <ul class="fr">
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(`
+                        <li><a href="#">
+                            <img src="./images/adh.jpg" alt="">
+                            <p>查理 斯密斯</p>
+                            <p class="c80 mt10">中国邮电出版社</p>
+                            <p class="cr f18">￥:30</p>
+                            <del class="cc f18">￥:58</del></a>
+                        </li>
+                        `)
+                            }
+                        </script>
+                    </ul>
+                    <ul class="fr">
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(`
+                        <li><a href="#">
+                            <img src="./images/fk.jpg" alt="">
+                            <p>查理 斯密斯</p>
+                            <p class="c80 mt10">中国邮电出版社</p>
+                            <p class="cr f18">￥:30</p>
+                            <del class="cc f18">￥:58</del></a>
+                        </li>
+                        `)
+                            }
+                        </script>
+                    </ul>
+                </div>
+                <!-- 区域三 -->
+                <div class="bt clearfix">
+                    <ul class="fr">
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(`
+                        <li><a href="#">
+                            <img src="./images/byx.jpg" alt="">
+                            <p>查理 斯密斯</p>
+                            <p class="c80 mt10">中国邮电出版社</p>
+                            <p class="cr f18">￥:30</p>
+                            <del class="cc f18">￥:58</del></a>
+                        </li>
+                        `)
+                            }
+                        </script>
+                    </ul>
+                    <ul class="fr">
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(`
+                        <li><a href="#">
+                            <img src="./images/adh.jpg" alt="">
+                            <p>查理 斯密斯</p>
+                            <p class="c80 mt10">中国邮电出版社</p>
+                            <p class="cr f18">￥:30</p>
+                            <del class="cc f18">￥:58</del></a>
+                        </li>
+                        `)
+                            }
+                        </script>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="another">
+            <ul class="fr">
+                <li><img src="./images/huodong.jpg" alt=""></li>
+                <li><img src="./images/huodong.jpg" alt=""></li>
+                <li><img src="./images/huodong.jpg" alt=""></li>
+                <li><img src="./images/huodong.jpg" alt=""></li>
+                <li><img src="./images/huodong.jpg" alt=""></li>
+                <li><img src="./images/huodong.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="moshou">
+            <img src="./images/moshou_03.jpg" alt="">
+        </div>
+    </section>
+    <!-- 页尾 -->
+    <footer>
+        <div class="footertop tc clearfix container">
+            <img src="./images/222_11.png">
+            <img src="./images/222_13(1).png" alt="">
+            <img src="./images/222_15.png" alt="">
+            <img src="./images/222_17.png">
+        </div>
+        <div class="footermiddle fr tc clearfix">
+            <ul>
+                <li class="f18">购物指南</li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">发票制度</a></li>
+                <li><a href="#">账户管理</a></li>
+                <li><a href="#">会员优惠</a></li>
+            </ul>
+            <ul>
+                <li class="f18">支付方式</li>
+                <li><a href="#">货到付款</a></li>
+                <li><a href="#">网上支付</a></li>
+                <li><a href="#">礼品卡支付</a></li>
+                <li><a href="#">银行转账</a></li>
+            </ul>
+            <ul>
+                <li class="f18">订单服务</li>
+                <li><a href="#">订单配送查询</a></li>
+                <li><a href="#">订单状态说明</a></li>
+                <li><a href="#">自主取消订单</a></li>
+                <li><a href="#">自主修改订单</a></li>
+            </ul>
+            <ul>
+                <li class="f18">退换货</li>
+                <li><a href="#">退换货政策</a></li>
+                <li><a href="#">自助申请退换货</a></li>
+                <li><a href="#">退换货进度查询</a></li>
+                <li><a href="#">退款方式和时间</a></li>
+            </ul>
+            <ul>
+                <li class="f18">商家中心</li>
+                <li><a href="#">运营服务</a></li>
+                <li><a href="#">加入尾品汇</a></li>
+            </ul>
+            <img src="./images/logo_00.png" alt="">
+        </div>
+        <div class="footerbottom clearfix">
+            <ul class="fr">
+                <li><a href="#">公司简介</a></li>
+                <li>|</li>
+                <li><a href="#">Investor Relations</a></li>
+                <li>|</li>
+                <li><a href="#">网站联盟</a></li>
+                <li>|</li>
+                <li><a href="#">乐购招商</a></li>
+                <li>|</li>
+                <li><a href="#">机构销售</a></li>
+                <li>|</li>
+                <li><a href="#">手机乐购</a></li>
+                <li>|</li>
+                <li><a href="#">官方Blog</a></li>
+                <li>|</li>
+                <li><a href="#">热词搜索</a></li>
+            </ul>
+            <div>Copyright (C) 乐购网 2004-2016, All Rights Reserved</div>
+        </div>
+    </footer>
+    <script src="./lib/jquery.js"></script>
+    <script src="./lib/jquery.slidebox.js"></script>
+    <script src="./js/listproduct.js"></script>
+</body>
+
+</html>

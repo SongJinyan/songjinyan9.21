@@ -1,0 +1,64 @@
+#shopcartarea table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#shopcartarea table,td{
+    border: 1px solid #ccc;
+}
+
+#shopcartarea table thead tr,
+#shopcartarea table tfoot tr{
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+
+#shopcartarea table tbody img{
+    vertical-align: middle;
+}
+#shopcartarea table tbody .reducebtn,
+#shopcartarea table tbody .addbtn
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc; 
+    text-align: center;   
+    cursor: pointer;
+    user-select: none;
+}
+
+#shopcartarea table tbody .count{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;    
+}
+/* 猜你喜欢 */
+#item{
+    margin-top: 40px;
+}
+#item .title h3{
+    width: 124px;
+    height: 48px;
+    line-height: 48px;
+	background-color: #ff6600;
+}
+#item .itemmiddle ul li{
+    width: 210px;
+    height: 258px;
+    float: left;
+    margin-right: 26px;
+    position: relative;
+}
+#item .itemmiddle ul li img:first-child{
+    width: 150px;
+	height: 150px;
+    margin-left: 30px;
+}
+#item .itemmiddle ul li del{
+   position: absolute;
+   bottom: 14px;
+   right: 66px;
+}
+#item .picture img{
+    margin: 60px 0  0 0;
+}

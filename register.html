@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <h1>
+                    <a href="#"><img src="../trunk/images/logo.jpg" alt=""></a>
+                </h1>
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="logintxtbox fr">
+                    欢迎光临<a href="#">乐购</a>，请<a href="#">登录</a>/<a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+        <p class="lg-container f30 c66">欢迎登陆</p>
+    </header>
+    <section class="repicture">
+        <img src="./images/login1.jpg" alt="">
+        <div class="denglu fr tc">
+            <div class="topdl">
+                <span class="f24 cur active">账户登录</span>
+                <span class="f24 c66">扫码登录</span>
+            </div>
+            <div class="btdl">
+                <div class="btdlimg pic cur">
+                    <img src="./images/show.png" alt="">
+                    <img src="./images/phone-orange.png" alt="" class="imgs"> 
+                    <p class="c66">打开手机版 乐购APP 扫一扫</p>
+                </div>
+                 <div class="saoma mt40 pic">
+                    <form action="" method="GET" id="signupForm">
+                        <p class="im">
+                            <input type="text" name="username" class="username" value="" placeholder="用户名">
+                            <img class="ren" src="./images/ren_03.jpg" alt="">
+                        </p>
+                        <p class="im">
+                            <input type="password" name="psd" class="psd" placeholder="密码">
+                            <img src="./images/suo_03.jpg" alt="" class="suo">
+                        </p>
+                        <p class="ck mt10">
+                            <input type="checkbox" value="checkbox" name="check">自动登录
+                        </p>
+                       <p class="forget"><a>忘记密码</a></p>
+                        <p>
+                        <p><input type="submit" class="sub" value="登 录"></p>
+                        <p class="enroll f24"><a class="cf60">立即注册</a></p>
+                    </form>
+                </div> 
+            </div>
+           
+        </div>
+    </section>
+    <script src="./lib/jquery.js"></script>
+    <script src="./lib/jquery.validate.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+
+</html>

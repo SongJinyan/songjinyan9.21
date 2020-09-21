@@ -1,0 +1,118 @@
+header p{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.repicture{
+    height: 500px;
+    position: relative;
+}
+.repicture img{
+    height: 500px;
+    margin-left: -342px;
+}
+.repicture .denglu{
+    width: 350px;
+	height: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 64px;
+    right: 156px;
+}
+.repicture .denglu .topdl{
+    width: 350px;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 2px solid #f6f6f6;
+}
+.repicture .denglu .topdl span{
+    margin:0 24px;
+}
+.repicture .denglu .topdl span.active{
+    color: #ff6600;
+}
+.repicture .denglu .topdl .btdlimg span{
+    margin: 20px 26px 20px 30px;
+}
+.repicture .denglu .btdl{
+    height: 254px;
+}
+.repicture .denglu .btdl .btdlimg img:first-child{
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    
+}
+.repicture .denglu .btdl .btdlimg .imgs{
+    width: 141px;
+    height: 168px;
+    position: absolute;
+    top: 110px;
+    right: 4px;
+}
+.repicture .denglu .btdl .btdlimg p{
+    position: absolute;
+    bottom: 55px;
+    left: 96px;
+}
+/* 账户登录 */
+.repicture .denglu .btdl .saoma p .username,
+.repicture .denglu .btdl .saoma p .psd{
+    width: 290px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    text-indent: 45px;
+}
+.repicture .denglu .btdl .saoma .ck{
+    margin-right: 220px;
+}
+.repicture .denglu .btdl .saoma .forget{
+    margin: -18px -240px 0 0;
+}
+.repicture .denglu .btdl .saoma p .sub{
+    width: 290px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 28px;
+    background-color: #ff6600;
+    margin-top: 24px;
+}
+.repicture .denglu .btdl .saoma .enroll{
+    width: 350px;
+    height: 56px;
+    line-height: 56px;
+    margin-top: 4px;
+}
+.repicture .denglu .btdl .saoma .username,
+.repicture .denglu .btdl .saoma p .psd{
+    position: relative;
+  }
+  label {
+    position: absolute;
+    left: 32px;
+    top: 42px;
+    color: red;
+  }
+/* ---------------交互-------------------- */
+.repicture .denglu .pic{
+    display: none;
+}
+.repicture .denglu .pic.cur{
+    display: block;
+}
+/* ------------------------------------------------ */
+.repicture .denglu .btdl .saoma .im{
+    position: relative;
+}
+.repicture .denglu .btdl .saoma p .ren,
+.repicture .denglu .btdl .saoma p .suo{
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 1px;
+      right: 280px;
+  }
+  

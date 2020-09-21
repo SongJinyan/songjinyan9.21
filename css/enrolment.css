@@ -1,0 +1,82 @@
+#register form{
+    width: 400px;
+    height: 540px;
+    margin: 50px auto;
+    position: relative;
+}
+#register form input:not(#agree){
+	width: 400px;
+    height: 44px;
+    margin-bottom: 40px;
+    outline: none;
+    border: 1px solid #b8b8b8;
+    text-indent: 127px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);    
+}
+#register form #agree{
+    width: 17px;
+}
+#register form  P{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+}
+
+#register .bor{
+    height: 20px;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+/* 表单*/
+section{
+    position: relative;
+}
+label{
+    color: red;
+    text-align: none;
+    line-height: 60px;
+    position: absolute;
+    top: -17px;
+    right: -138px;
+}
+section img{
+    width: 25px;
+    height: 28px;
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    display: none;
+}
+section span{
+    text-align: center;
+    display: block;
+    width: 91px;
+    background-color: #e6e6e6;
+    position: absolute;
+    right: 0px;
+    bottom: 42px;
+    line-height: 42px;
+}
+section .yz{
+    background-color: #1a83e5;
+}
+#btn{
+   color: #ffffff;
+   font-size: 28px;
+	background-color: #ff6600;
+}
+#register form section p:not(:last-child){
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 22px;
+    color: #666666;
+}
+#register  form #btn{
+    text-indent: 10px!important
+}
+footer .footerbottom{
+    margin-bottom: 130px;
+}
+
